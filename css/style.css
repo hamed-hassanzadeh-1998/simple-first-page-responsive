@@ -151,7 +151,17 @@
     font-weight: 700;
     color: #333;
 }
+.header-menu-burger{
+    float: right;
+    background-color: white;
+    border: none;
+    line-height: 80px;
+    display: none;
+}
+.show{
+    display: inline-block !important;
 
+}
 @media (max-width: 991.98px) {
     .header-logo {
         height: 15px;
@@ -162,5 +172,17 @@
     }
 }
 @media (max-width: 768.98px) {
-
+    .header-menu-burger{
+        display: inline-block;
+    }
+    .header-menu {
+        display: none;
+        width: 100%;
+    }
+    .header-menu-item {
+        display: block;
+        border-bottom: 1px solid #cecece;
+        /*width: 100%;*/
+        margin:10px 10px;
+    }
 }
