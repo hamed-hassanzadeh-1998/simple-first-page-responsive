@@ -3,46 +3,76 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-<section class="app">
-    <header class="header">
-        <nav class="header">
-            <img src="images/logo-black.png" alt="" class="header-logo">
-            <button class="header-menu-burger" onclick="showMenu()"><i class="fas fa-bars"></i></button>
-            <ul class="header-menu" id="menu">
-                <li class="header-menu-item"><a href="#" class="menu-item-link">NEWS</a></li>
-                <li class="header-menu-item"><a href="#" class="menu-item-link">GUIDES & ANALICS</a></li>
-                <li class="header-menu-item"><a href="#" class="menu-item-link">EVENTS</a></li>
-                <li class="header-menu-item"><a href="#" class="menu-item-link">EXPLAINED</a></li>
-                <li class="header-menu-item"><a href="#" class="menu-item-link">ICON CALENDER</a></li>
-            </ul>
-        </nav>
-    </header>
-</section>
+    <section class="app">
+        <header class="header">
+            <nav class="header">
+                <img src="images/logo-black.png" alt="" class="header-logo">
+                <button class="header-menu-burger" onclick="showMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+                <ul class="header-menu" id="menu">
+                    <li class="header-menu-item"><a href="#" class="menu-item-link">NEWS</a></li>
+                    <li class="header-menu-item"><a href="#" class="menu-item-link">GUIDES & ANALICS</a></li>
+                    <li class="header-menu-item"><a href="#" class="menu-item-link">EVENTS</a></li>
+                    <li class="header-menu-item"><a href="#" class="menu-item-link">EXPLAINED</a></li>
+                    <li class="header-menu-item"><a href="#" class="menu-item-link">ICON CALENDER</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content">
+            <sectio class="intro-h-600px">
+                <section class="intro-row">
+                    <section class="intro-2-3-col">
+                        <section></section>
+                        <section class="intro-item-caption">
+                            <h3 class="caption-title">
+                                <span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur.
+                                </span>
+                            </h3>
+                            <ul>
+                                <li>by <b class="text-yellow">olivia capzallo</b>Jan 25,2018</li>
+                                <li>
+                                    <i class="fas fa-bolt text-yellow">30,190</i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment text-yellow">30</i>
+                                </li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="intro-1-3col">
 
-<footer class="footer">
+                    </section>
+                </section>
+                <section class="intro-row"></section>
+            </sectio>
+        </section>
 
-</footer>
-<script>
-    function showMenu() {
-        var menu = document.getElementById('menu');
-        if (menu.className == 'menu') {
-            menu.className += ' show';
-        } else {
-            menu.className = 'menu';
+    </section>
+
+    <footer class="footer">
+
+    </footer>
+    <script>
+        function showMenu() {
+            var menu = document.getElementById('menu');
+            if (menu.className === "menu") {
+                menu.className += " show";
+            } else {
+                menu.className = "menu";
+            }
         }
-    }
-</script>
+    </script>
 </body>
 
 </html>
