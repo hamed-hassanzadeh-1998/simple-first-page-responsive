@@ -409,22 +409,26 @@ a:hover > b {
 .main-news-w-50:last-of-type {
     margin-right: 0;
 }
-.sidebar{
+
+.sidebar {
     float: right;
-    width:calc(calc(100% / 3) - 25px);
+    width: calc(calc(100% / 3) - 25px);
     margin-left: 25px;
 }
-.sidebar-item{
+
+.sidebar-item {
     width: 100%;
     margin-bottom: 40px;
 }
-.sidebar-list{
+
+.sidebar-list {
     list-style: none;
     padding: 0;
 }
-.sidebar-list > li{
+
+.sidebar-list>li {
     padding: 15px 0;
-    background-color: #f9b500;
-    border-bottom: 1px solid white;
+    background-color: #F9B500!important;
+    border-bottom: 1px solid #ffffff;
     text-align: center;
 }
