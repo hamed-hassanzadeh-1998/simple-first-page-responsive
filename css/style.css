@@ -385,3 +385,18 @@ a:hover > b {
         margin-bottom: 10px;
     }
 }
+.container{
+    width: 100%;
+    margin-top: 50px;
+}
+.main{
+    float: left;
+    margin-right: 25px;
+    width: calc(calc(200%/3) - 25px);
+}
+.main-news{
+    margin-bottom: 50px;
+}
+.main-news-img{
+    width: 100%;
+}
