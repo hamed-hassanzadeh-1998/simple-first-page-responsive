@@ -604,5 +604,22 @@ a:hover > b {
 .footer-social-network li{
     display: inline-block;
     margin-left: 20px;
-
+}
+@media (max-width:575.98px) {
+    .footer-col{
+        float: none;
+        padding: 15px;
+        width: calc(100% - 30px);
+    }
+    .footer-menu{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-social-network{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
 }
