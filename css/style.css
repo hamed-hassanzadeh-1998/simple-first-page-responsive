@@ -578,3 +578,31 @@ a:hover > b {
     background-repeat: no-repeat;
     background-position: center;
 }
+.footer-menu{
+    float: left;
+    list-style: none;
+    width: 50%;
+    padding: 0;
+}
+.footer-menu li{
+    display: inline-block;
+    padding: 0 20px 20px 0;
+}
+.footer-menu li a{
+    color: #cccccc;
+    font-size: 12px;
+}
+.footer-menu li a:hover{
+    color: #f9b500;
+}
+.footer-social-network{
+    float: right;
+    list-style: none;
+    text-align: right;
+    width: 50%;
+}
+.footer-social-network li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
